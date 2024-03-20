@@ -1,0 +1,29 @@
+.btn {
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(113, 166, 210);
+  color: #fff;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 1rem 0.2rem;
+}
+  
+.btn-light {
+  background: transparent;
+  color: #fff;
+}
+  
+.btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 400px) {
+  .btn {
+    padding: 0.3rem 1rem;
+    font-size: 0.7rem;
+  }
+}

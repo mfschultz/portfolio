@@ -1,0 +1,48 @@
+.project-heading {
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+.card-container {
+    max-width: 1040px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 2.5rem;
+}
+
+.card {
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 0.3rem;
+    background: #2b375f;
+    padding: 1rem;
+}
+
+.card img {
+    width: 100%
+}
+
+.project-title {
+    padding: 1rem 0;
+}
+
+.project-details {
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.project-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 740px) {
+    .card-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
