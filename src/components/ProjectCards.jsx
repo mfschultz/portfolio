@@ -15,18 +15,18 @@ function ProjectCards() {
             <img src={kcLogo} alt='image' />
             <h2 className={styles['project-title']}>Kingdom Connect</h2>
             <div className={styles['project-details']}>
-              <p>-This Text There-</p>
+              <p>-Coming Soon-</p>
             </div>
             <div className={styles['project-btns']}>
               <NavLink to='url.com' className={`${buttonStyle.btn} ${styles.btn}`}>View</NavLink>
-              <NavLink to='url.com' className={`${buttonStyle.btn} ${styles.btn}`}>Source</NavLink>
+              <NavLink to='https://github.com/mfschultz/Kingdom_Connect_API' className={`${buttonStyle.btn} ${styles.btn}`}>Source</NavLink>
             </div>
         </div>
         <div className={styles.card}>
         <img src={moneyLogo} alt='image' />
             <h2 className={styles['project-title']}>My.Money</h2>
             <div className={styles['project-details']}>
-              <p>-This Text There-</p>
+              <p>-Coming Soon-</p>
             </div>
             <div className={styles['project-btns']}>
               <NavLink to='url.com' className={`${buttonStyle.btn} ${styles.btn}`}>View</NavLink>
@@ -37,7 +37,7 @@ function ProjectCards() {
         <img src={deliveranceLogo} alt='image' />
             <h2 className={styles['project-title']}>Deliver Me</h2>
             <div className={styles['project-details']}>
-              <p>-This Text There-</p>
+              <p>-Coming Soon-</p>
             </div>
             <div className={styles['project-btns']}>
               <NavLink to='url.com' className={`${buttonStyle.btn} ${styles.btn}`}>View</NavLink>
