@@ -24,14 +24,14 @@ function Footer(){
                     <div className={styles.phone}>
                         <h4>
                             <FaMailBulk className={styles.icon} size={20} />
-                            KingdomBuilderConnect@gmail.com
+                            info@kingdom-connect.com
                         </h4>
                     </div>
                 </div>
                 <div className={styles.right}>
                     <h4> About the Company</h4>
                     <p>
-                        This is the me, Trey Schultz, the CEO & Founder of Kingdom Builder Connect.
+                        This is me, Trey Schultz, the CEO & Founder of KingdomConnect.
                         This company was founded on the principles of love, honor, diligence and truth.
                         I have a passion for building useful and efficient applications and I hope that 
                         I can serve you by helping your project reach the heavens.
