@@ -51,7 +51,7 @@ function Footer(){
             </div>
             <div className={styles.copyright}>
                 <p>
-                    <FaCopyright className={styles['copyright-icon']} size={10} /> 2023 KingdomBuilderConnect.com, All rights reserved.
+                    <FaCopyright className={styles['copyright-icon']} size={10} /> 2024 Kingdom-Connect.com, All rights reserved.
                 </p>
             </div>
         </div>
