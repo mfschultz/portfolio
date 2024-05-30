@@ -57,7 +57,7 @@ function ContactForm() {
           {errors.name && (<span className={styles.errorMessage}>{errors.name.message}</span>)}
 
           <label className={styles.label}>Email</label>
-          <input id='userEmail' name='userEmail' type='text' {...register('email', { required: true, pattern: /^[a-zA-Z0-9._-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/ })} />
+          <input id='userEmail' name='userEmail' type='text' {...register('email', { required: true, pattern: /^[A-z0-9._%+-]+@[A-z0-9.-]+\.[A-z]{2,4}$/ })} />
           {errors.email && (<span className={styles.errorMessage}>Please enter a valid email address</span>)}
 
           <label className={styles.label}>Subject</label>
